@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "element-plus": "^2.1.4",
+    "randomstring": "^1.2.2"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  }
+}
